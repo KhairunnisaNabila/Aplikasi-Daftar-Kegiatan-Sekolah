@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Daftar Acara</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card *ngFor="let acara of daftarAcara">
+    <ion-card-header>
+      <ion-card-title>{{ acara.nama_acara }}</ion-card-title>
+      <ion-card-subtitle>
+        {{ acara.tanggal }} | {{ acara.waktu }}
+      </ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p><strong>Penanggung Jawab:</strong> {{ acara.penanggung_jawab }}</p>
+      <p><strong>Tempat:</strong> {{ acara.tempat }}</p>
+      <p><strong>Keterangan:</strong> {{ acara.keterangan }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-text *ngIf="daftarAcara.length === 0" color="medium">
+    <p style="text-align:center;">Belum ada data acara</p>
+  </ion-text>
+
+</ion-content>

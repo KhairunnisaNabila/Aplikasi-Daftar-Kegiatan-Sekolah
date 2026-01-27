@@ -1,0 +1,108 @@
+.hero {
+  background: linear-gradient(135deg, #1e90ff, #0047ab);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 8px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+ion-card-title {
+  font-weight: bold;
+}
+
+ion-icon {
+  color: #1e90ff;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+  font-size: 13px;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  text-align: center;
+}
+
+.feature-item {
+  background: #f8f9fa;
+  border-radius: 14px;
+  padding: 18px 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.feature-item ion-icon {
+  font-size: 36px;
+  color: #1e90ff;
+  margin-bottom: 8px;
+}
+
+.feature-item h3 {
+  font-size: 14px;
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.feature-item p {
+  font-size: 12px;
+  color: #666;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  text-align: center;
+}
+
+/* ITEM */
+.feature-item {
+  border-radius: 16px;
+  padding: 18px 10px;
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* ICON */
+.feature-item ion-icon {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+/* TEXT */
+.feature-item h3 {
+  font-size: 14px;
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.feature-item p {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* WARNA-WARNI */
+.blue {
+  background: linear-gradient(135deg, #2196f3, #1565c0);
+}
+
+.green {
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+}
+
+.orange {
+  background: linear-gradient(135deg, #ff9800, #ef6c00);
+}

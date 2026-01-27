@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <img src="assets/download.png" alt="SMK NEGRI 2 BINJAI">
+    <h1>Sistem Informasi Kegiatan Sekolah</h1>
+  </div>
+
+  <!-- INFO SEKOLAH -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Profil Singkat</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      SMK Negeri 2 Binjai merupakan sekolah kejuruan yang berkomitmen
+      dalam membentuk siswa yang unggul, berkarakter, dan siap
+      menghadapi dunia kerja melalui berbagai kegiatan sekolah.
+    </ion-card-content>
+  </ion-card>
+<!-- FITUR APLIKASI -->
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Fitur Aplikasi</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <div class="feature-grid">
+
+      <div class="feature-item blue" (click)="keTab3()">
+        <ion-icon name="clipboard-outline"></ion-icon>
+        <h3>Input Kegiatan</h3>
+        <h6>Tambah data kegiatan sekolah</h6>
+      </div>
+
+      <div class="feature-item green" (click)="keTab3()">
+        <ion-icon name="calendar-outline"></ion-icon>
+        <h3>Jadwal Acara</h3>
+        <h6>Lihat daftar kegiatan</h6>
+      </div>
+
+      <div class="feature-item orange" (click)="keTab3()">
+        <ion-icon name="school-outline"></ion-icon>
+        <h3>Profil Sekolah</h3>
+        <h6>Informasi SMK Negeri 2 Binjai</h6>
+      </div>
+
+    </div>
+  </ion-card-content>
+</ion-card>
+
+
+  <!-- FOOTER INFO -->
+  <div class="footer">
+    <p>© 2026 SMK Negeri 2 Binjai</p>
+  </div>
+
+</ion-content>

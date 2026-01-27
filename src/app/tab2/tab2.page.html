@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Input Data kegiatan sekolah</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item>
+    <ion-input label="Nama Acara" [(ngModel)]="dataAcara.nama_acara"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Penanggung Jawab" [(ngModel)]="dataAcara.penanggung_jawab"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Tempat" [(ngModel)]="dataAcara.tempat"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="date" label="Tanggal" [(ngModel)]="dataAcara.tanggal"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Waktu" [(ngModel)]="dataAcara.waktu"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-textarea label="Keterangan" [(ngModel)]="dataAcara.keterangan"></ion-textarea>
+  </ion-item>
+
+  <ion-button expand="block" color="success" (click)="simpan()">
+    Simpan Data
+  </ion-button>
+
+</ion-content>
