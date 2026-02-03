@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AcaraService {
 
-  apiUrl = 'http://localhost/api-acara/simpan_acara.php';
+  apiUrl = 'https://khairunnisa.perangkatlunak.my.id/api-acara/simpan_acara.php';
 
   constructor(private http: HttpClient) {}
 
@@ -15,7 +15,7 @@ export class AcaraService {
     
   }
   getAcara() {
-  return this.http.get<any[]>('http://localhost/api-acara/get_acara.php');
+  return this.http.get<any[]>('https://khairunnisa.perangkatlunak.my.id/api-acara/get_acara.php');
 }
 
 }

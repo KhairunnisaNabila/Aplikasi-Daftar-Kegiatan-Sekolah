@@ -106,3 +106,12 @@ ion-icon {
 .orange {
   background: linear-gradient(135deg, #ff9800, #ef6c00);
 }
+.feature-item {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-item:active {
+  transform: scale(0.96);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}

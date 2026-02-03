@@ -24,6 +24,7 @@
     </ion-card-content>
   </ion-card>
 <!-- FITUR APLIKASI -->
+<!-- FITUR APLIKASI -->
 <ion-card>
   <ion-card-header>
     <ion-card-title>Fitur Aplikasi</ion-card-title>
@@ -32,22 +33,25 @@
   <ion-card-content>
     <div class="feature-grid">
 
-      <div class="feature-item blue" (click)="keTab3()">
+      <!-- BLUE → TAB 2 -->
+      <div class="feature-item blue" (click)="keTab2()">
         <ion-icon name="clipboard-outline"></ion-icon>
         <h3>Input Kegiatan</h3>
-        <h6>Tambah data kegiatan sekolah</h6>
+        <h4>Tambah data kegiatan sekolah</h4>
       </div>
 
+      <!-- GREEN → TAB 3 -->
       <div class="feature-item green" (click)="keTab3()">
         <ion-icon name="calendar-outline"></ion-icon>
-        <h3>Jadwal Acara</h3>
-        <h6>Lihat daftar kegiatan</h6>
+        <h3>Daftar Kegiatan</h3>
+        <h4>Lihat hasil pendaftaran</h4>
       </div>
 
-      <div class="feature-item orange" (click)="keTab3()">
-        <ion-icon name="school-outline"></ion-icon>
-        <h3>Profil Sekolah</h3>
-        <h6>Informasi SMK Negeri 2 Binjai</h6>
+      <!-- ORANGE → TAB 1 -->
+      <div class="feature-item orange" (click)="keTab1()">
+        <ion-icon name="home-outline"></ion-icon>
+        <h3>Home</h3>
+        <h4>Kembali ke halaman utama</h4>
       </div>
 
     </div>

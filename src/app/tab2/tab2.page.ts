@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { IonicModule, AlertController } from '@ionic/angular';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { AlertController } from '@ionic/angular';
 import { AcaraService } from '../providers/acara.service';
 
 @Component({
   selector: 'app-tab2',
   templateUrl: './tab2.page.html',
   styleUrls: ['./tab2.page.scss'],
-  standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
+  standalone: false
 })
 export class Tab2Page {
 
@@ -18,7 +15,7 @@ export class Tab2Page {
   constructor(
     private acaraService: AcaraService,
     private alertCtrl: AlertController
-  ) {}
+  ) { }
 
   resetForm() {
     return {
